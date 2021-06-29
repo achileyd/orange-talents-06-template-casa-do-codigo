@@ -1,4 +1,4 @@
-package br.com.zupacademy.achiley.casadocodigo.form;
+package br.com.zupacademy.achiley.casadocodigo.autor.form;
 
 import java.time.LocalDateTime;
 
@@ -7,7 +7,8 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-import br.com.zupacademy.achiley.casadocodigo.model.Autor;
+import br.com.zupacademy.achiley.casadocodigo.autor.Autor;
+import br.com.zupacademy.achiley.casadocodigo.autor.validation.UniqueEmail;
 
 public class AutorForm {
 	
@@ -15,6 +16,7 @@ public class AutorForm {
 	private String nome;
 	@NotBlank
 	@Email
+	@UniqueEmail
 	private String email;
 	@NotBlank
 	@Size(max = 400)
