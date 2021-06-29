@@ -1,4 +1,4 @@
-package br.com.zupacademy.achiley.casadocodigo.model;
+package br.com.zupacademy.achiley.casadocodigo.autor;
 
 import java.time.LocalDateTime;
 
