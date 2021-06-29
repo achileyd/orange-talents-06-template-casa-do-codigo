@@ -23,22 +23,20 @@ public class AutorForm {
 	private String descricao;
 	@NotNull
 	private LocalDateTime dataRegistro = LocalDateTime.now();
+	
+	
 
-
-	public String getNome() {
-		return nome;
+	public AutorForm(@NotBlank String nome, @NotBlank @Email String email,
+			@NotBlank @Size(max = 400) String descricao) {
+		super();
+		this.nome = nome;
+		this.email = email;
+		this.descricao = descricao;
 	}
+
 
 	public String getEmail() {
 		return email;
-	}
-
-	public String getDescricao() {
-		return descricao;
-	}
-
-	public LocalDateTime getDataRegistro() {
-		return dataRegistro;
 	}
 
 	public Autor converter() {
