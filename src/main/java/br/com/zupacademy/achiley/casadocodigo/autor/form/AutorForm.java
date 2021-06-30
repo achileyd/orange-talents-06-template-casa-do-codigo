@@ -23,8 +23,7 @@ public class AutorForm {
 	private String descricao;
 	@NotNull
 	private LocalDateTime dataRegistro = LocalDateTime.now();
-	
-	
+
 
 	public AutorForm(@NotBlank String nome, @NotBlank @Email String email,
 			@NotBlank @Size(max = 400) String descricao) {

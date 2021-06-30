@@ -9,7 +9,5 @@ import br.com.zupacademy.achiley.casadocodigo.autor.Autor;
 
 @Repository
 public interface AutorRepository extends CrudRepository<Autor, Long>{
-	
 	Optional<Autor> findByEmail(String email);
-
 }
