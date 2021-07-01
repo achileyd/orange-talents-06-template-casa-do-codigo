@@ -8,7 +8,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 import br.com.zupacademy.achiley.casadocodigo.autor.Autor;
-import br.com.zupacademy.achiley.casadocodigo.autor.validation.UniqueEmail;
+import br.com.zupacademy.achiley.casadocodigo.shared.UniqueValue;
 
 public class AutorForm {
 	
@@ -16,7 +16,7 @@ public class AutorForm {
 	private String nome;
 	@NotBlank
 	@Email
-	@UniqueEmail
+	@UniqueValue(domainClass = Autor.class, fieldName = "email")
 	private String email;
 	@NotBlank
 	@Size(max = 400)
