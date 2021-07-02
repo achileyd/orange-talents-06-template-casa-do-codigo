@@ -30,7 +30,7 @@ public class LivroForm {
 	@NotNull
 	@Min(20)
 	private BigDecimal preco;
-	@NotNull
+	//@NotNull
 	@Min(100)
 	private Integer numeroDePaginas;
 	@NotBlank
