@@ -1,4 +1,4 @@
-package br.com.zupacademy.achiley.casadocodigo.autor.controller;
+package br.com.zupacademy.achiley.casadocodigo.autor;
 
 import javax.validation.Valid;
 
@@ -7,10 +7,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import br.com.zupacademy.achiley.casadocodigo.autor.Autor;
-import br.com.zupacademy.achiley.casadocodigo.autor.form.AutorForm;
-import br.com.zupacademy.achiley.casadocodigo.autor.repository.AutorRepository;
 
 @RestController
 @RequestMapping("/autores")

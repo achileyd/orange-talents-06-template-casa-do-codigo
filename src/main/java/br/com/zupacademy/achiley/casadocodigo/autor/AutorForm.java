@@ -1,4 +1,5 @@
-package br.com.zupacademy.achiley.casadocodigo.autor.form;
+package br.com.zupacademy.achiley.casadocodigo.autor;
+
 
 import java.time.LocalDateTime;
 
@@ -7,7 +8,6 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-import br.com.zupacademy.achiley.casadocodigo.autor.Autor;
 import br.com.zupacademy.achiley.casadocodigo.shared.UniqueValue;
 
 public class AutorForm {

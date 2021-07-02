@@ -1,8 +1,7 @@
-package br.com.zupacademy.achiley.casadocodigo.categoria.form;
+package br.com.zupacademy.achiley.casadocodigo.categoria;
 
 import javax.validation.constraints.NotBlank;
 
-import br.com.zupacademy.achiley.casadocodigo.categoria.Categoria;
 import br.com.zupacademy.achiley.casadocodigo.shared.UniqueValue;
 
 public class CategoriaForm {

@@ -1,11 +1,9 @@
-package br.com.zupacademy.achiley.casadocodigo.autor.repository;
+package br.com.zupacademy.achiley.casadocodigo.autor;
 
 import java.util.Optional;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-
-import br.com.zupacademy.achiley.casadocodigo.autor.Autor;
 
 @Repository
 public interface AutorRepository extends CrudRepository<Autor, Long>{

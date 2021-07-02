@@ -1,4 +1,4 @@
-package br.com.zupacademy.achiley.casadocodigo.categoria.controller;
+package br.com.zupacademy.achiley.casadocodigo.categoria;
 
 import javax.validation.Valid;
 
@@ -7,10 +7,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import br.com.zupacademy.achiley.casadocodigo.categoria.Categoria;
-import br.com.zupacademy.achiley.casadocodigo.categoria.form.CategoriaForm;
-import br.com.zupacademy.achiley.casadocodigo.categoria.repository.CategoriaRepository;
 
 @RestController
 @RequestMapping("/categorias")
