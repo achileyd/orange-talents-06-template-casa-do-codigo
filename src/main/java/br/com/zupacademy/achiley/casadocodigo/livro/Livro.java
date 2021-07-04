@@ -76,6 +76,30 @@ public class Livro {
 		return titulo;
 	}
 
+	public String getResumo() {
+		return resumo;
+	}
+
+	public String getSumario() {
+		return sumario;
+	}
+
+	public BigDecimal getPreco() {
+		return preco;
+	}
+
+	public Integer getNumeroDePaginas() {
+		return numeroDePaginas;
+	}
+
+	public String getIbsn() {
+		return ibsn;
+	}
+
+	public Autor getAutor() {
+		return autor;
+	}
+
 	@Override
 	public String toString() {
 		return "Livro [\nTitulo = " + titulo + 
