@@ -7,4 +7,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 public interface EstadoRepository extends JpaRepository<Estado, Long> {
 	
 	Optional<Estado> findByNomeAndPaisId(String nome, Integer paisId);
+	Optional<Estado> findByIdAndPaisId(Long id, Integer paisId);
 }
